@@ -2,11 +2,12 @@
 public class HelloFSJ {
 
 	public static void main(String[] args) {
-		System.out.println("Olá FSJ");
-		System.out.println("Olá FSJ");
-		System.out.println("Olá FSJ");
-		System.out.println("Olá FSJ");
-		System.out.println("Olá FSJ");
+		System.out.println("Olï¿½ FSJ");
+		System.out.println("Olï¿½ FSJ");
+		System.out.println("Olï¿½ FSJ");
+		System.out.println("Olï¿½ FSJ");
+		System.out.println("Olï¿½ FSJ");
+		System.out.println("Olï¿½ FSJ by Leonardo");
 	}
 
 }
