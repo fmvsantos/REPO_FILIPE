@@ -6,6 +6,7 @@ public class HelloFSJ {
 		System.out.println("Olá FSJ");
 		System.out.println("Olá FSJ");
 		System.out.println("Olá FSJ");
+		System.out.println("Olá FSJ");
 	}
 
 }
