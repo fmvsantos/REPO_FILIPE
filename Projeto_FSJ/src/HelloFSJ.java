@@ -6,8 +6,8 @@ public class HelloFSJ {
 		System.out.println("Modificação Filipe");
 		System.out.println("Ol� FSJ");
 		System.out.println("Ol� FSJ");
-		System.out.println("4k");
-		System.out.println("Modificação Leonardo");
+		System.out.println("Ol� FSJ 5k");
+		System.out.println("Ol� FSJ by Leonardo");
 	}
 
 }
