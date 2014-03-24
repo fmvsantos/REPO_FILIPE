@@ -4,39 +4,39 @@ import java.util.Scanner;
 
 public class HelloFSJ {
 
-	private static String OPCAO_CONTINUAR_PROGRAMA = "";
+	private static String OPTION_CONTINUE_PROGRAM = "";
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 
-		String aluno = "";
+		String student = "";
 
 		do {
 			
-			hello(aluno);
+			printHello(student);
 
-			System.out.println("Deseja continuar (s/n) ? \n");
+			System.out.println("Wish continue (s/n) ? \n");
 
-			Scanner operacao = new Scanner(System.in);
-			OPCAO_CONTINUAR_PROGRAMA = operacao.next();
+			Scanner operation = new Scanner(System.in);
+			OPTION_CONTINUE_PROGRAM = operation.next();
 
-		} while ("s".equalsIgnoreCase(OPCAO_CONTINUAR_PROGRAMA));
+		} while ("s".equalsIgnoreCase(OPTION_CONTINUE_PROGRAM));
 
-		fimPrograma();
+		endProgram();
 	}
 
 	@SuppressWarnings("resource")
-	private static void hello(String aluno) {
+	private static void printHello(String aluno) {
 
 		Scanner nomeUsuario = new Scanner(System.in);
 		
-		System.out.print("Digite seu nome:");
+		System.out.print("Enter your name:");
 		aluno = nomeUsuario.next();
 
-		System.out.println("\n" + aluno + ", Hello São José! \n");
+		System.out.println("\nHello " + aluno + "!!!\n");
 	}
 
-	public static void fimPrograma() {
-		System.out.println("******** FIM DO PROGRAMA ********");
+	public static void endProgram() {
+		System.out.println("******** END OF PROGRAM ********");
 	}
 }
