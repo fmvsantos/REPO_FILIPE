@@ -38,5 +38,6 @@ public class HelloFSJ {
 
 	public static void endProgram() {
 		System.out.println("******** END OF PROGRAM ********");
+		//
 	}
 }
